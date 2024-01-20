@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+    border: 0px;
+    margin: 0px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #CCC; 
+}
+p{
+    font-family: 'Domine', serif;
+    font-size: 15pt;
+    text-align: justify;
+    color: black;
+    
+    
+
+}
+
+h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: 'DM Serif Display', serif;    padding: 10px;
+    width: 100%;
+    background-image: linear-gradient(to right, #20B2AA, transparent );
+    color: white;
+    border-radius: 3px 5px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
+}
+
+.logo{
+      padding: 10px;
+   
+}
+.botao {
+    padding: 5px;
+
+     
+}
+.botao:hover{
+    border-radius: 50%;
+    
+    
+    
+    
+}
+/* area de navegacao */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4682B4;
+    width: 100%;
+    z-index: 100;
+    
+    
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+    margin-left: 10px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+nav a:hover {
+    color: #4682B4;
+    text-decoration: none;
+    background-color: white;
+
+  
+    transition: 0.7s;
+    
+}
+
+#SOBRE {
+    background-image: url('/login/bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:  top;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 0px 20px;
+    margin: auto; 
+}
+#SOBRE > p{
+    color: #f1f1f1;
+}
+
+#TECNOLOGIA {
+    align-items: center;
+    text-align: justify;
+    padding: 0px 20px;
+    
+}
+#SUSTENTABILIDADE{
+    background-color: #3CB371;
+    color: white;
+    padding: 0px 20px;
+    margin: auto;
+    
+}
+#SUSTENTABILIDADE > p{
+    color: white;
+    
+}
+#SUSTENTABILIDADE > h2{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 10px;
+    text-align-last: center;
+    background-color: #353535;
+    
+}
+footer > p{
+    color: white;
+}
+
+@media screen and (min-width: 808px) {
+    /*
+    NAVEGAÇÃO
+    */
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+
+    }
+
+    
+    /*
+    SOBRE
+    */
+    
+    #SOBRE {
+        padding: 10px 15% 10px 15% ;
+        line-height: 2em;
+        color: white;
+         
+         
+    }
+    
+    #TECNOLOGIA{
+        padding: 10px 15% 10px 15%;
+        line-height: 2em;
+      
+
+    }
+    #SUSTENTABILIDADE{
+        padding: 10px 15% 10px 15%;
+        color: white;
+        line-height: 2em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    footer > p{
+        color: white;
+        padding: 10px;
+    }
+   
+   
+    
+}
