@@ -87,10 +87,10 @@ nav a:hover {
 }
 
 #SOBRE {
-    background-image: url('/site/login/bg.png');
+    background-image: url('../_IMG/fundo01.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-position:  center ;
+    background-position:  bottom center ;
     color: white;
     display: flex;
     flex-direction: column;
@@ -99,6 +99,7 @@ nav a:hover {
     padding: 0px 20px;
     margin: auto; 
 }
+
 #SOBRE > p{
     color: #f1f1f1;
 }
