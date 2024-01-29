@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/*importacao de fontes atraves do site google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/*root de fonts family*/
+:root{
+    --fonte1:  Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Sriracha', cursive;
+    --fonte3: font-family: 'Nunito', sans-serif;
+    --fonte4: font-family: 'Rubik', sans-serif;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+header{
+    background-color: rgb(2, 90, 21);
+    color: white;
+    text-align: center;
+    
+    
+}
+header > h1 {
+    padding: 10px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 6vw;
+    
+}
+header > p {
+    padding-bottom: 30px;
+    font-family: var(--fonte1);
+}
+header > p > a:hover{
+    color: red;
+    
+}
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 2em;
+    padding-left: 30px ;
+    font-family: var(--fonte1);
+    font-size: 2.8vw;
+}
+section > p{
+    padding-bottom: 20px;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section#img01{
+    background-image: url('imagens/ft.jpg');
+    background-position:  left center ;
+
+}
+
+section#img02{
+    background-image: url('imagens/ft3.jpg');
+    background-position: right bottom;
+
+}
+
+section.imagem > p{
+    background-color: rgba(2, 90, 21, 0.397);
+    display: inline-block;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
