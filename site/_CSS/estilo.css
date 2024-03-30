@@ -31,17 +31,14 @@ h2{
 
 .logo{
       padding: 0px;
-   
 }
 .botao {
     padding: 5px;
     align-items: center;
-
-     
+  
 }
 .botao:hover{
-    border-radius: 50%;
-     
+    border-radius: 50%;   
 }
 /* area de navegacao */
 nav {
@@ -52,8 +49,6 @@ nav {
     width: 100%;
     z-index: 100;
 }
-
-
 nav ul {
     list-style: none;
     padding: 0;
@@ -62,15 +57,12 @@ nav ul {
     align-items: center;
     width: 100%;
 }
-
 nav ul li {
     text-align: center;
     width: 100%;
     margin-left: 10px;
-    font-family: 'Rubik', sans-serif;
-    
+    font-family: 'Rubik', sans-serif; 
 }
-
 nav ul li a {
     display: inline-block;
     padding: 5px;
@@ -85,9 +77,8 @@ nav a:hover {
     background-color: white;
     transition: 0.7s; 
 }
-
 #SOBRE {
-    background-image: url('../_IMG/fundo01.jpg');
+    background-image: url('../_IMG/fundo.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position:  bottom center ;
@@ -99,34 +90,27 @@ nav a:hover {
     padding: 0px 20px;
     margin: auto; 
 }
-
 #SOBRE > p{
     color: #f1f1f1;
 }
-
 #TECNOLOGIA {
     align-items: center;
     text-align: justify;
-    padding: 10px 20px;
-    
+    padding: 10px 20px;  
 }
 #SUSTENTABILIDADE{
     background-color: #3CB371;
     color: white;
     padding: 10px 20px;
-    margin: auto;
-    
+    margin: auto; 
 }
 #SUSTENTABILIDADE > p{
-    color: white;
-    
+    color: white; 
 }
 #SUSTENTABILIDADE > h2{
     text-decoration: none;
     color: white;
-
 }
-
 footer{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -138,7 +122,21 @@ footer{
 footer > p{
     color: white;
 }
-
+#to_top{
+    position: fixed;
+    font-size: 60px;
+    color: white;
+    background-color: #4682B4;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    right: 0.6rem;
+    bottom: 2rem;
+    text-decoration: none;
+}
 @media screen and (min-width: 808px) {
     /*
     NAVEGAÇÃO
@@ -156,7 +154,7 @@ footer > p{
 
     
     /*
-    SOBRE
+    conteudo
     */
     
     #SOBRE {
@@ -183,6 +181,9 @@ footer > p{
     footer > p{
         color: white;
         padding: 10px;
+    }
+    #to_top{
+        right: 3rem;
     }
    
 }
