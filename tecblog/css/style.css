@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fafafa;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+header{
+    background-color: goldenrod;
+    width: 100%;  
+}
+#burguer{
+    display: none;
+    cursor: pointer;
+}
+#burguer:hover{
+    color: white;
+   
+}
+#nav_header ul{
+    text-align: center;
+}
+
+#nav_header a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+#nav_header a:hover{
+    color: darkslategray;
+    transition: 1s;
+    
+}
+/*formacao geral*/
+.branco{
+    color: white;
+}
+h1{
+    color: white;
+}
+h2{
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.568);
+}
+h3{
+
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.61);
+    color: white;
+    padding: 2px;
+    border-radius: 8px;
+}
+p{
+    font-size: 0.8em;
+}
+#dataPost{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    display: block;
+}
+#logo{
+    font-size: 2em;
+    color: darkslategray;
+    display: block;
+    text-align: center;
+}
+#logo,#nav_header {
+    padding: 10px 0px;
+}
+
+img{
+    width: 100%;
+}
+#area_principal{
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+}
+#area_postagens{
+    width: 660px;
+    float: left;
+    
+
+}
+#area_postagens p{
+    margin-bottom: 10px;
+}
+#area_postagens a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 10px;
+    background-color: green;
+    
+    
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+
+#area_lateral{
+    width: 240px;
+    float: right;
+}
+#conteudo_lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.postagem-lateral{
+    padding: 0px;
+}
+.postagem-lateral p{
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    
+}
+.postagem-lateral:hover{
+    background-color: #cccccc5e;
+}
+#link-post a{
+    display: block;
+    text-decoration: none;
+
+}
+
+footer{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both; /*elimina o fluxo dos elementos flutuantes*/
+}
+#to_top{
+    position: fixed;
+    transform: rotate(-90deg);
+    bottom: 1.5rem;
+    right: 2rem;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: goldenrod;
+    color: white;
+    font-size: 25px;
+}

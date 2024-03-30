@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #fff url(img/fundo.png) repeat-x;
+}
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+#topo{
+    height: 150px;
+    background: url(img/detalhe-topo.png) no-repeat right top;
+   
+}
+.logo{
+    width: 150px;
+    height: 66px;
+    background: url(img/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#topo ul{
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+#topo ul li{
+    float: left;
+
+    
+}
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-right: 1px solid white;
+
+}
+#topo ul li a:hover {
+    text-decoration: underline;
+    transition: .5s;
+    background: white;
+    color: #b10333;
+    margin-left: 0;    
+
+}
+/*edicao ficar selecao menu cor diferente*/
+body.home #nav a#home,
+body.brasil #nav a#brasil,
+body.fotos #nav a#fotos{
+    color:#fff;
+    background: #de003e;
+    cursor:text;
+
+}
+
+#topo ul .first a {
+    background: none;
+    margin-left: 0;
+    
+    
+
+}
+#conteudo{
+    margin-top: 80px;
+  
+    
+}
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+
+}
+#tresColuna #primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+  
+}
+#duasColuna #primario{
+    width: 555px;
+   
+}
+#umaColuna #primario{
+    width: 750px;
+    margin: 0 0 20px 0px;
+}
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+
+}
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(img/fundo-caixa.png);
+}
+.caixaConteudo{
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+/*formatar menu lateral*/
+#lateral ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #f3f3f3;
+
+}
+#lateral ul a:hover{
+    background: #f9f9f9 url(img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+/*formatando formularios*/
+label{
+    display: block;
+    cursor: pointer;
+    width: 125px;
+
+}
+input{
+    font-size: 0.9em;
+    width: 130px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #fff;
+}
+input.submit {
+    width: 80px;
+    color: #fff;
+    border: 2px solid #b10333 ;
+    background-color: #294c71;
+    cursor: pointer;
+}
+/*formatacao de img*/
+img{
+    border: 2px solid #dfdfdf;
+}
+img.imagemPrincipal{
+    border-radius: 0px;
+
+}
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+
+}
+.Destaque h3{
+    color: #fff;
+    background-color: #b10333;
+    
+}
+.entrevista h3{
+    color: #fff;
+    background-color: rgb(83, 68, 62);
+}
+/*formatar list noticias*/
+#listNoticia li{
+    padding: 2px;
+    border-bottom: 1px solid #fff ;
+    height: 65px;
+
+
+}
+#listNoticia li a img{
+    margin: 5px;
+    float: left;
+}
+#listNoticia li a {
+    text-decoration: none;
+
+
+}
+#listNoticia li a p{
+    font-size: 0.7em;
+
+}
+#listNoticia li:hover{
+    background: #eee;
+    
+
+}
+#listNoticia li h3 {
+    padding: 0;
+    font-size: 0.8em;
+    color: #3e7ab9;
+
+}
+
+#containerRodape{
+    background-color: rgba(0, 0, 0, 0.884);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin: 0px;
+}

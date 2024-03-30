@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* Typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (max-width: 600px) {
+    body{
+        font-size: 100%;
+    }
+    #logo{
+        display: block;
+        text-align: center;
+        margin-left: 10px;
+    }
+    #burguer{
+        display: block;
+        float: inline-start;
+        
+    }
+    header{
+        width: 100%;
+        margin: 0;
+        padding: 10px 0px;
+
+    }
+    #nav_header {
+        display: none;
+        align-items: left;
+        width: 100%;
+    }
+    #nav_header > ul > a{
+        display: block;
+        
+    }
+    #nav_header > a:hover{
+        color: darkslategray;
+        transition: .5s;
+        text-decoration: none ;
+    }
+    #area_principal{
+        margin: 0;
+        margin-right: 0;
+        width: 100%;
+      
+    }
+    img{
+        width: 100%;
+    }
+    #area_postagens, #postagem{
+        width: 100%;
+        margin: 0;
+    }
+   
+    #area_lateral, #conteudo_lateral{
+        float: inline-start;
+        width: 100%;
+    }
+
+    footer{
+        width: 100%;
+    }
+    #to_top{
+        right: 1rem;
+    }
+}
+@media screen and (min-width: 600px ) and (max-width: 768px){
+    
+    header, img{
+        width: 100%;
+    }
+    #area_principal, #area_postagens{
+        width: 100%;
+    }
+    
+    #area_lateral, #conteudo_lateral{
+        width: 100%;
+        float: left;
+        display: block;
+    }
+    
+}
+@media screen and (min-width: 768px ) and (max-width: 1050px){
+    header, img{
+        width: 100%;
+    }
+    #area_principal{
+        margin: 0;
+        width: 100%;
+    }
+    #area_postagens{
+        width: 65%;
+    }
+    #area_lateral{
+        float: left;
+        margin: 0 ;
+        margin-left: 20px;
+    }
+    #conteudo_lateral{
+        width: 90%;
+    }
+
+}
