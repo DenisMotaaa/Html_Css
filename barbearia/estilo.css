@@ -1,0 +1,44 @@
+section#sobre.bg-dark{
+    padding: 10px 0px;
+
+}
+#home.bg-dark{
+    padding: 10px 0px;
+}
+@media (max-width:575px){
+    .img2{
+        display: none;
+    }
+}
+#fundo{
+    background-image: url(./img/Barber.png);
+    background-repeat: no-repeat;
+    background-position:  top center;
+    
+}
+.imgServ{
+    width: 110px;
+    background-color: #ffc107;
+    border-radius: 50%;
+
+}
+#nav-principal ul > li > a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.font-tx{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+div.col.mx-auto.text-center{
+    padding: 10px;
+}
+div.col.mx-auto.text-center:hover{
+    border-radius: 10px;
+    background: #212529;
+    color: white;
+
+}
+a.nav-link.text-light{
+    font-size: 18px;
+    font-weight: 500;
+}
