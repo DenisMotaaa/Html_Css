@@ -50,6 +50,9 @@ a.nav-link.text-light{
     width: 35px;
     margin-right: 10px;
 }
+.img-contato:hover{
+    transform: scale(1.2);
+}
 #contato > h1{
     font-weight: 400;
     
