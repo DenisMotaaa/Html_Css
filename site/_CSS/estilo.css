@@ -3,11 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
-body{
+body, html{
     border: 0px;
     margin: 0px;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     color: #CCC; 
+    height: 100%;
 }
 p{
     font-family: 'Domine', serif;
@@ -77,12 +78,12 @@ nav a:hover {
     background-color: white;
     transition: 0.7s; 
 }
-#SOBRE {
-    background-image: url('../_IMG/fundo.jpg');
+#SOBRE{
+    background-color: ;
     background-size: cover;
     background-attachment: fixed;
-    background-position:  bottom center ;
-    color: white;
+    background-position:  bottom  ;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,7 +92,7 @@ nav a:hover {
     margin: auto; 
 }
 #SOBRE > p{
-    color: #f1f1f1;
+    color: black;
 }
 #TECNOLOGIA {
     align-items: center;
